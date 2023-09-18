@@ -1,100 +1,100 @@
 airport1,airport2
-YYJ,YVR
-YYJ,YLW
-YYJ,YXS
-YYJ,YEG
-YYJ,YYC
-YYJ,YYZ
-YVR,YKA
-YVR,YLW
-YVR,YXS
-YVR,YYC
-YVR,YQR
-YVR,YXE
-YVR,YWG
-YVR,YYZ
-YVR,YKF
-YVR,YOW
-YVR,YUL
-YVR,YHZ
-YVR,YXY
-YVR,YZF
-YXX,YYC
-YXX,YEG
-YXX,YHM
-YXX,YYZ
-YXX,YWG
-YKA,YYC
-YLW,YEG
-YLW,YYC
-YLW,YXS
-YLW,YYZ
-YLW,YYT
-YXS,YEG
-YXC,YYC
-YEG,YYC
-YEG,YQR
-YEG,YXE
-YEG,YWG
-YEG,YHM
-YEG,YYZ
-YEG,YOW
-YEG,YUL
-YEG,YHZ
-YEG,YYT
-YEG,YXY
-YEG,YZF
-YYC,YQU
-YYC,YQR
-YYC,YXE
-YYC,YBR
-YYC,YWG
-YYC,YYZ
-YYC,YOW
-YYC,YUL
-YYC,YHZ
-YYC,YZF
-YQU,YYZ
-YQR,YWG
-YQR,YYZ
-YXE,YWG
-YXE,YYZ
-YWG,YHM
-YWG,YYZ
-YWG,YKF
-YWG,YOW
-YWG,YQT
-YWG,YUL
-YWG,YHZ
-YHM,YHZ
-YHM,YYT
-YYZ,YOW
-YYZ,YQT
-YYZ,YUL
-YYZ,YQB
-YYZ,YFC
-YYZ,YQM
-YYZ,YHZ
-YYZ,YYG
-YYZ,YZF
-YKF,YOW
-YKF,YHZ
-YOW,YQT
-YOW,YUL
-YOW,YQB
-YOW,YFC
-YOW,YQM
-YOW,YHZ
-YOW,YYG
-YOW,YZF
-YUL,YQB
-YUL,YFC
-YUL,YQM
-YUL,YHZ
-YUL,YYG
-YUL,YYT
-YHZ,YYT
-YYT,YYC
-YYT,YYZ
-YDA,YXY
-YXY,YZF
+Victoria,Vancouver
+Victoria,Kelowna
+Victoria,Prince George
+Victoria,Edmonton
+Victoria,Calgary
+Victoria,Toronto
+Vancouver,Kamloops
+Vancouver,Kelowna
+Vancouver,Prince George
+Vancouver,Calgary
+Vancouver,Regina
+Vancouver,Saskatoon
+Vancouver,Winnipeg
+Vancouver,Toronto
+Vancouver,Kitchener
+Vancouver,Ottawa
+Vancouver,Montreal
+Vancouver,Halifax
+Vancouver,Whitehorse
+Vancouver,Yellowknife
+Abbotsford,Calgary
+Abbotsford,Edmonton
+Abbotsford,Hamilton
+Abbotsford,Toronto
+Abbotsford,Winnipeg
+Kamloops,Calgary
+Kelowna,Edmonton
+Kelowna,Calgary
+Kelowna,Prince George
+Kelowna,Toronto
+Kelowna,St. John's
+Prince George,Edmonton
+Cranbrook,Calgary
+Edmonton,Calgary
+Edmonton,Regina
+Edmonton,Saskatoon
+Edmonton,Winnipeg
+Edmonton,Hamilton
+Edmonton,Toronto
+Edmonton,Ottawa
+Edmonton,Montreal
+Edmonton,Halifax
+Edmonton,St. John's
+Edmonton,Whitehorse
+Edmonton,Yellowknife
+Calgary,Fort McMurray
+Calgary,Regina
+Calgary,Saskatoon
+Calgary,Brandon
+Calgary,Winnipeg
+Calgary,Toronto
+Calgary,Ottawa
+Calgary,Montreal
+Calgary,Halifax
+Calgary,Yellowknife
+Fort McMurray,Toronto
+Regina,Winnipeg
+Regina,Toronto
+Saskatoon,Winnipeg
+Saskatoon,Toronto
+Winnipeg,Hamilton
+Winnipeg,Toronto
+Winnipeg,Kitchener
+Winnipeg,Ottawa
+Winnipeg,ThunderBay
+Winnipeg,Montreal
+Winnipeg,Halifax
+Hamilton,Halifax
+Hamilton,St. John's
+Toronto,Ottawa
+Toronto,ThunderBay
+Toronto,Montreal
+Toronto,Québec City
+Toronto,Fredericton
+Toronto,Greater Moncton
+Toronto,Halifax
+Toronto,Charlottetown
+Toronto,Yellowknife
+Kitchener,Ottawa
+Kitchener,Halifax
+Ottawa,ThunderBay
+Ottawa,Montreal
+Ottawa,Québec City
+Ottawa,Fredericton
+Ottawa,Greater Moncton
+Ottawa,Halifax
+Ottawa,Charlottetown
+Ottawa,Yellowknife
+Montreal,Québec City
+Montreal,Fredericton
+Montreal,Greater Moncton
+Montreal,Halifax
+Montreal,Charlottetown
+Montreal,St. John's
+Halifax,St. John's
+St. John's,Calgary
+St. John's,Toronto
+Dawson City,Whitehorse
+Whitehorse,Yellowknife
