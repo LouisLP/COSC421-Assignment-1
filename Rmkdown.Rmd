@@ -1,0 +1,58 @@
+---
+title: "Assign1"
+author: "ErinHiebert"
+date: "2023-09-20"
+output: pdf_document
+---
+
+```{R}
+library(igraph)
+# loading data
+nodes <- read.csv("airport_data.csv", header=TRUE)
+edges <- read.csv("connections/combined.csv", header=TRUE)
+
+# Create graph object
+airports <- graph_from_data_frame(edges, nodes, directed=FALSE)
+vertex_attr(airports) <- list(name = nodes$code)
+
+# QUESTION 1
+# Number of Edges and Nodes
+vcount(airports)  # Vertices
+ecount(airports)  # Edges
+
+# QUESTION 2
+# Plot and visualize graphs
+node.size = c(10, 10, 10)
+
+coords = layout_(airports, in_circle())
+plot(airports, vertex.size = 8, edge.arrow = 0.5, vertex.label.cex = 1, layout = coords)
+
+coords = layout_(airports, randomly())
+plot(airports, layout = coords)
+
+coords = layout_(airports, as_tree())
+plot(airports, layout = coords)
+
+coords = layout_(airports, with_sugiyama())
+plot(airports, layout = coords)
+
+# QUESTION 3
+# Compute degrees of airports
+degrees <- c(degree(airports, V(airports)))
+degrees <- as.vector(degrees)
+degrees <- sort(degrees, decreasing = TRUE)
+head(degrees, 2)
+tail(degrees, 2)
+
+# QUESTION 4
+# Histogram of degrees
+hist(degrees)
+
+# QUESTION 5
+# Adjacency Matrix
+adj <- get.adjacency(airports)
+adj <- as.matrix(adj)
+isSymmetric(adj)
+adj
+
+```
